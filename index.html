@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!--PAGE INFO-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello word</title>
+    <!--END PAGE INFO-->
+
+    <!--STYLE-SHEET-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!--FONTS-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--END STYLE-->
+  </head>
+  <body>
+    <!--NAV-->
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Beauty<span>Salon</span>.</a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    <!--END NAV-->
+    <!--PAGE-->
+    <main>
+      <!---->
+      <section class="section" id="home">
+        <!---->
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+              alt=""
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Saude natural para seus cabelos</h2>
+            <p>
+              Um salão exclusivo em São paulo, expecializado em tratamentos
+              naturais.
+            </p>
+            <a class="button" href="#">Agendar um horario</a>
+          </div>
+        </div>
+        <!---->
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80"
+              alt="Mulher pentenando segurando chapinha e escova"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+              reiciendis, illum sequi error culpa molestiae et tempora nobis
+              suscipit commodi saepe consequatur impedit, laborum, cum nemo qui
+              ducimus odio esse!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque praesentium beatae ullam placeat. Commodi numquam
+              aperiam vero? Commodi voluptatem odit dolor voluptate reiciendis
+              earum, doloremque, nostrum nihil enim quas pariatur.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              rerum eaque, itaque quae soluta similique, accusantium,
+              perspiciatis deserunt odit dolor temporibus dolore quo perferendis
+              ducimus dicta velit distinctio consectetur. Minus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- END About -->
+
+      <div class="divider-2"></div>
+
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Com mais de 10 anos no mercado, o <strong> Beautysalon</strong> já
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+          </header>
+
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia capilar</h3>
+              <p>
+                Terapia completa para couro cabeludo e fios, protegendo todos os
+                tipos de cabelos, inclusive os longos e finos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                A nossa equipe é repleta de profissionais renomados, famosos por
+                lançarem tendências com cortes diferenciados e clássicos.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">Tratamentos</h3>
+              <p>
+                O beautysalon conta com diversos tratamentos naturais e
+                totalmente veganos, para qualquer tipo de cabelo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END Services -->
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIAL -->
+      <section class="section" id="testimonials">
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui.</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Eu sou cliente do Beautysalon há 5 anos e não troco por
+                    nada! Certamente meu cabelo mudou muito depois que comecei a
+                    tratar somente com produtos naturais e veganos. São
+                    profissionais incríveis e qualificados.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/60.jpg"
+                      alt=""
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Sapiente eius accusamus eaque eum alias est voluptas
+                    adipisci eligendi recusandae, ipsa, a, quos repellat
+                    dignissimos at quibusdam dicta deleniti ut consectetur.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/67.jpg"
+                      alt=""
+                    />
+                    Luiza Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Minha mãe frequenta o salão há anos e me levou um dia para
+                    conhecer. Minha experiência foi incrível, eu continuo
+                    fazendo o a terapia capilar e isso salvou o meu cabelo.
+                    Adoro todos os profissionais do Beautysalon.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/72.jpg"
+                      alt=""
+                    />
+                    Luna Falcão
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need pagination -->
+          </div>
+        </div>
+      </section>
+      <!--END TESTIMONIAL -->
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contanto com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a class="button" href="https://google.com.br" target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contanto</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>11 99845-6754</li>
+              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--END CONTACT -->
+    </main>
+    <!-- FOOTER -->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home">Beauty<span>Salon</span></a>
+          <p>©2021 Beautysalon.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social grid">
+          <a href="https://www.google.com" target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>
+          <a href="https://www.google.com" target="_blank"
+            ><i class="icon-youtube"></i
+          ></a>
+          <a href="https://www.google.com" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--  -->
+    <script src="./main.js"></script>
+    <!---->
+    <!--END PAGE-->
+  </body>
+</html>
